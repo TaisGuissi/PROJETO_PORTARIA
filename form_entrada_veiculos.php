@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V3</title>
+	<title>Veicúlos</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -36,9 +36,8 @@
 					<span class="login100-form-logo">
 						<i class="zmdi zmdi-landscape"></i>
 					</span>
-
 					<span class="login100-form-title p-b-34 p-t-27">
-					VISITANTES
+					ENTRADA DE VEICÚLOS
 					</span>
 
 
@@ -49,16 +48,11 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Nome do Visitante">
+						<input class="input100" type="text" name="username" placeholder="Nome do Motorista">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
 						<input class="input100" type="text" name="username" placeholder="RG">
-					</div>
-
-
-                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="CPF">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
@@ -70,19 +64,49 @@
 					</div>
 					
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Empresa">
+						<input class="input100" type="text" name="username" placeholder="Transportadora">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Liberado por...">
+						<input class="input100" type="text" name="username" placeholder="Cliente">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="motivo">
+						<input class="input100" type="text" name="username" placeholder="Liberação">
 					</div>
-					
-					
 
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Peso na Nota Fiscal">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Peso da Balança">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Evidência">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="NFS de entrada">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Situação">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Justificativa">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Saída aprovada por...">
+					</div>
+
+
+					
+					
+				
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
 							LIBERAR ENTRADA
@@ -97,6 +121,8 @@
 	
 
 	<div id="dropDownSelect1"></div>
+
+    
 	
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -117,3 +143,4 @@
 
 </body>
 </html>
+

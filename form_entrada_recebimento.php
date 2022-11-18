@@ -49,16 +49,11 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Nome do Visitante">
+						<input class="input100" type="text" name="username" placeholder="Nome do Motorista">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
 						<input class="input100" type="text" name="username" placeholder="RG">
-					</div>
-
-
-                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="CPF">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
@@ -66,26 +61,48 @@
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="time" name="username" placeholder="Horário da saída">
+						<input class="input100" type="time" name="username" placeholder="Horário da Saída">
 					</div>
 					
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Empresa">
+						<input class="input100" type="text" name="username" placeholder="Placa">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Liberado por...">
+						<input class="input100" type="text" name="username" placeholder="Transportadora">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="motivo">
+						<input class="input100" type="text" name="username" placeholder="Fornecedor">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Peso entrada">
 					</div>
 					
-					
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Peso saída">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Setor">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Notas Fiscais">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Liberação">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Evidência">
+					</div>
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							LIBERAR ENTRADA
+							RECEBER
 						</button>
 					</div>
 
