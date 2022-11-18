@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>INICIO</title>
+	<title>Login V3</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -24,8 +24,7 @@
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
-    <link href="css/seletor.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/inicio.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
 <body>
@@ -39,40 +38,63 @@
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
-						PORTARIA TESSIN
+					VISITANTES
 					</span>
 
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							VISITANTES 
-						</button>
+
+                    <!--       FORMULÁRIO DE ENTRADA DE VISITANTES     -->
+                   
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="date" name="username" placeholder="">
 					</div>
-                    <br>
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							FUNCIONÁRIOS 
-						</button>
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Nome do Visitante">
 					</div>
-                    <br> 
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="RG">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="CPF">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="time" name="username" placeholder="Horário da entrada">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="time" name="username" placeholder="Horário da saída">
+					</div>
+					
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Empresa">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="Liberado por...">
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<input class="input100" type="text" name="username" placeholder="motivo">
+					</div>
+					
+					
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							VEICÚLOS 
+							LIBERAR ENTRADA
 						</button>
 					</div>
-                    <br>
 
-                    <div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							RECEBIMENTO 
-						</button>
-					</div>
-                    <br>
+					
 				</form>
 			</div>
 		</div>
 	</div>
 	
+
 	<div id="dropDownSelect1"></div>
 	
 <!--===============================================================================================-->
