@@ -56,8 +56,9 @@
 						<input class="input100" type="text" name="username" placeholder="RG">
 					</div>
 
+
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="CPF">
+						<input class="input100" type="text" name="username" placeholder="CPF: 000.000.000-00">
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
