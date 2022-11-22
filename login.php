@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-	<title>Login V3</title>
+	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -56,7 +56,7 @@
 						<label class="label-checkbox100" for="ckb1">
 							Lembrar me
 						</label>
-					</div>
+					</div>	
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">

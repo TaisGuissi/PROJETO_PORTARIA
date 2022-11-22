@@ -3,6 +3,7 @@
 
 <head>
 
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,15 +14,17 @@
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="css/seletor.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
 
-    
+
+
+
+
 </head>
 
 <body id="page-top">
@@ -51,16 +54,11 @@
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Addons
-            </div>
+        
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Administrador</span>
                 </a>
@@ -78,51 +76,42 @@
                 </div>
             </li>
 
-          
+
+               <!-- Nav Item - Tables -->
+               <li class="nav-item">
+                <a class="nav-link" href="veiculos.php">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>VEICÚLOS </span></a>
+            </li>
+
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="visitantes.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Visitantes</span></a>
+                    <span>VISITANTES</span></a>
             </li>
 
-               <!-- Nav Item - Tables -->
-               <li class="nav-item">
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
                 <a class="nav-link" href="funcionarios.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Funcionários</span></a>
+                    <span>FUNCIONÁRIOS</span></a>
             </li>
-            <!-- Nav Item - Tables -->
-          <li class="nav-item">
-            <a class="nav-link" href="veiculos.php">
-                <i class="fas fa-fw fa-table"></i>
-                <span>Veicúlos  </span></a>
-        </li>
+          
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="recebimento.php">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Recebimento</span></a>
+                    <span>RECEBIMENTO</span></a>
             </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+           
             </div>
 
-            <!-- Sidebar Message -->
-            <div class="sidebar-card d-none d-lg-flex">
-                <img class="sidebar-card-illustration mb-2" src="img/logotessin.jfif" alt="...">
-                <p class="text-center mb-2"><strong>TESSIN INDÚSTRIA E COMÉRCIO LTDA</strong> 
-                
-              
-            </div>
+<!-- End of Sidebar -->
+</body>
+</html>
 
-        </ul>
-        <!-- End of Sidebar -->
 
-       
+        
