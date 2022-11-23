@@ -208,6 +208,4 @@
             </div>
         </ul>
 
-        <?php
-include "tabelas.php";
-        ?>
+    

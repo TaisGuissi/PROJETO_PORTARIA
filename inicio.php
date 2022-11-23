@@ -52,14 +52,23 @@
 					</span>
 
 					<br>
-						<div class="container-login100-form-btn">
+						
+					
+					<div class="container-login100-form-btn">
+							<button class="login100-form-btn" href="veiculos.php">
+								VEICÚLOS
+							</button>
+						</div>
+						<br>
+					
+					<div class="container-login100-form-btn">
 							<button class="login100-form-btn">
 								VISITANTES
 							</button>
 						</div>
 						<br>
 
-						<br>
+						
 						<div class="container-login100-form-btn">
 							<button class="login100-form-btn">
 								FUNCIONÁRIOS
@@ -67,12 +76,7 @@
 						</div>
 						<br>
 
-						<div class="container-login100-form-btn">
-							<button class="login100-form-btn">
-								VEICÚLOS
-							</button>
-						</div>
-						<br>
+						
 
 						<div class="container-login100-form-btn">
 							<button class="login100-form-btn">
