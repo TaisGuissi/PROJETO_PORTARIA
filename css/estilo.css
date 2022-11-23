@@ -4,6 +4,7 @@
     vertical-align:baseline;
     list-style:none;
     border:0
+    
     }
 
 .bg-gradient-primary {
@@ -16,4 +17,30 @@
     color: #fff;
     background-color: #7579ff;
     border-color: #944ff8;
+}
+
+.bg-white {
+    background-color: #000!important;
+}
+.container-login100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(51 52 141 / 90%);
+}
+
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item, .sidebar .nav-item .collapsing .collapse-inner .collapse-item {
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: .35rem;
+    white-space: nowrap;
 }

@@ -27,6 +27,7 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link href="css/seletor.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/inicio.css">
+	<link href="css/estilo.css" rel="stylesheet">
 	<!--===============================================================================================-->
 
 

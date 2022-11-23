@@ -31,15 +31,13 @@ define("DATABASE_NAME","si_ads_2period");
 $conexao = mysqli_connect(SERVER_LOCAL,SERVER_USER,SERVER_PASSWORD,DATABASE_NAME);
 
 
-
-
 */
 
 
 /*
 
 
-TABELA LOGIN:   prtaria_login
+TABELA LOGIN:   portaria_login
 id
 email_adm 
 senha_adm

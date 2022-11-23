@@ -2,8 +2,6 @@
 <html lang="pt-br">
 
 <head>
-
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,45 +20,38 @@
     <link href="css/estilo.css" rel="stylesheet">
 
 
-
-
-
+    
 </head>
 
 <body id="page-top">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-
+  
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="menu.php">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <i class=""></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">PORTARIA <sup>2</sup></div>
+                
+                <span class="login100-form-title p-b-34 p-t-27">
+					<br><br>	PORTARIA TESSIN
+					</span>
             </a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
-                <a class="nav-link" href="index.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
-            </li>
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-        
+          
+            <br>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Administrador</span>
+                    <span>ADMINISTRADOR</span>
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -77,8 +68,8 @@
             </li>
 
 
-               <!-- Nav Item - Tables -->
-               <li class="nav-item">
+            <!-- Nav Item - Tables -->
+            <li class="nav-item">
                 <a class="nav-link" href="veiculos.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>VEICÚLOS </span></a>
@@ -97,7 +88,7 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>FUNCIONÁRIOS</span></a>
             </li>
-          
+
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
@@ -105,13 +96,13 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>RECEBIMENTO</span></a>
             </li>
-
-           
-            </div>
-
-<!-- End of Sidebar -->
-</body>
-</html>
+            <!-- Sidebar Toggler (Sidebar) -->
 
 
-        
+        </ul>
+        <!-- End of Sidebar -->
+
+        <?php
+        include "tabelas.php";
+        ?>
+        </ul>
