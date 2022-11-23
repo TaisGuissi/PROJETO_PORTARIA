@@ -44,3 +44,13 @@
     border-radius: .35rem;
     white-space: nowrap;
 }
+
+th {
+    text-align: inherit;
+    text-align: CENTER;
+}
+
+td {
+    text-align: inherit;
+    text-align: CENTER;
+}

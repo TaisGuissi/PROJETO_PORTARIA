@@ -20,14 +20,14 @@
     <link href="css/estilo.css" rel="stylesheet">
 
 
-    
+
 </head>
 
 <body id="page-top">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-  
+
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -36,16 +36,16 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class=""></i>
                 </div>
-                
+
                 <span class="login100-form-title p-b-34 p-t-27">
-					<br><br>	PORTARIA TESSIN
-					</span>
+                    <br> PORTARIA TESSIN
+                </span>
             </a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-          
-            <br>
+
+            <br><br><br><br>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
@@ -60,13 +60,11 @@
                         <a class="collapse-item" href="register.html">Cadastrar</a>
                         <a class="collapse-item" href="forgot-password.html">Esqueceu a senha?</a>
                         <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                        
                     </div>
                 </div>
             </li>
-
+            <br>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
@@ -74,14 +72,14 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>VEICÚLOS </span></a>
             </li>
-
+            <br>
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="visitantes.php">
                     <i class="fas fa-fw fa-table"></i>
                     <span>VISITANTES</span></a>
             </li>
-
+            <br>
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="funcionarios.php">
@@ -89,7 +87,7 @@
                     <span>FUNCIONÁRIOS</span></a>
             </li>
 
-
+            <br>
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="recebimento.php">
