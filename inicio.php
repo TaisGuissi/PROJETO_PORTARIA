@@ -53,38 +53,38 @@
 					</span>
 
 					<br>
-						
-					
+
+
 					<div class="container-login100-form-btn">
-							<button class="login100-form-btn" href="veiculos.php">
-								VEICÚLOS
-							</button>
-						</div>
-						<br>
-					
+						<button class="login100-form-btn" href="veiculos.php">
+							VEICÚLOS
+						</button>
+					</div>
+					<br>
+
 					<div class="container-login100-form-btn">
-							<button class="login100-form-btn">
-								VISITANTES
-							</button>
-						</div>
-						<br>
+						<button class="login100-form-btn">
+							VISITANTES
+						</button>
+					</div>
+					<br>
 
-						
-						<div class="container-login100-form-btn">
-							<button class="login100-form-btn">
-								FUNCIONÁRIOS
-							</button>
-						</div>
-						<br>
 
-						
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							FUNCIONÁRIOS
+						</button>
+					</div>
+					<br>
 
-						<div class="container-login100-form-btn">
-							<button class="login100-form-btn">
-								RECEBIMENTO
-							</button>
-						</div>
-						<br>
+
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							RECEBIMENTO
+						</button>
+					</div>
+					<br>
 				</form>
 			</div>
 		</div>

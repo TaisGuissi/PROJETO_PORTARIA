@@ -99,8 +99,3 @@
 
         </ul>
         <!-- End of Sidebar -->
-
-        <?php
-        include "tabelas.php";
-        ?>
-        </ul>

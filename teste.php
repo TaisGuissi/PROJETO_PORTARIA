@@ -27,7 +27,7 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <link href="css/seletor.css" rel="stylesheet">
-    <link href="css/estilo.css" rel="stylesheet">
+    <link href="css/menu2.css" rel="stylesheet">
 
     <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
@@ -80,7 +80,7 @@
 </head>
 
 <body id="page-top">
-  
+
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -139,73 +139,71 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div id="dropDownSelect1"></div>
- 
 
 
 
-</div>
 
-<!-- Modal footer -->
-<div class="modal-footer">
-    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-</div>
-</div>
-</div>
-</div>
-</li>
-<li>
-    <a class="nav-link" href="funcionarios.php">
-        <div class="container-login100-form-btn">
-            <button class="login100-form-btn">
-                FUNCIONÁRIOS
-            </button>
-        </div>
-</li>
-<li>
-    <a class="nav-link" href="veiculos.php">
-        <div class="container-login100-form-btn">
-            <button class="login100-form-btn">
-                VEICÚLOS
-            </button>
-        </div>
-</li>
+                                    </div>
 
-<li>
-    <a class="nav-link" href="recebimento.php">
-        <div class="container-login100-form-btn">
-            <button class="login100-form-btn">
-                RECEBIMENTO
-            </button>
-        </div>
-</li>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="funcionarios.php">
+                                <div class="container-login100-form-btn">
+                                    <button class="login100-form-btn">
+                                        FUNCIONÁRIOS
+                                    </button>
+                                </div>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="veiculos.php">
+                                <div class="container-login100-form-btn">
+                                    <button class="login100-form-btn">
+                                        VEICÚLOS
+                                    </button>
+                                </div>
+                        </li>
 
-<!-- End of Sidebar -->
+                        <li>
+                            <a class="nav-link" href="recebimento.php">
+                                <div class="container-login100-form-btn">
+                                    <button class="login100-form-btn">
+                                        RECEBIMENTO
+                                    </button>
+                                </div>
+                        </li>
+
+                        <!-- End of Sidebar -->
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
 
-</fieldset>
+                </fieldset>
 
             </div>
         </ul>
-
-    
