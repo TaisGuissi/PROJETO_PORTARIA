@@ -166,7 +166,7 @@
                                     <td>07:00</td>
                                     <td>10:00</td>
                                     <td>S/ATESTADO</td>
-                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -177,7 +177,7 @@
                                     <td>12:00</td>
                                     <td>10:00</td>
                                     <td>15:30</td>
-                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
@@ -188,7 +188,7 @@
                                     <td>09:00</td>
                                     <td>10:00</td>
                                     <td>S/ATESTADO</td>
-                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
@@ -199,7 +199,7 @@
                                     <td>17:00</td>
                                     <td>S/RETORNO</td>
                                     <td>S/ATESTADO</td>
-                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
 
 
@@ -214,7 +214,7 @@
                                     <td>07:00</td>
                                     <td>10:00</td>
                                     <td>S/ATESTADO</td>
-                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
@@ -225,7 +225,7 @@
                                     <td>12:00</td>
                                     <td>10:00</td>
                                     <td>15:30</td>
-                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
 
                                 </tr>
                                 <tr>
@@ -237,7 +237,7 @@
                                     <td>09:00</td>
                                     <td>10:00</td>
                                     <td>S/ATESTADO</td>
-                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
                                 <tr>
                                     <td>8</td>
@@ -248,7 +248,7 @@
                                     <td>17:00</td>
                                     <td>S/RETORNO</td>
                                     <td>S/ATESTADO</td>
-                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
 
                                 <td>9</td>
@@ -259,7 +259,7 @@
                                 <td>17:00</td>
                                 <td>S/RETORNO</td>
                                 <td>S/ATESTADO</td>
-                                <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
 
                                 <td>10</td>
@@ -270,7 +270,7 @@
                                 <td>17:00</td>
                                 <td>S/RETORNO</td>
                                 <td>S/ATESTADO</td>
-                                <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
 
                                 <td>11</td>
@@ -281,7 +281,7 @@
                                 <td>17:00</td>
                                 <td>S/RETORNO</td>
                                 <td>S/ATESTADO</td>
-                                <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
+                                <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
                                 </tr>
 
 

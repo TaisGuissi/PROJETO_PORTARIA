@@ -118,7 +118,7 @@
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
                     <h6 class="">
-                        <button type="button" class="btn btn-success"> + ADICIONAR </button>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ExemploModalCentralizado"> + ADICIONAR </button>
 
                         <button type="button" class="btn btn-danger"> SAÍDA </button>
 
@@ -150,13 +150,12 @@
 
                                 </tr>
                             </thead>
-                            
+
                             <tfoot>
                                 <tr>
                                     <!--    <th>ID</th> -->
                                     <!--<th>Data</th> -->
                                     <!-- <th>Hora da entrada</th> -->
-
                                     <th>Placa</th>
                                     <th>motorista</th>
                                     <!--    <<th>Transportadora</th>-->
@@ -204,19 +203,19 @@
                                         <!-- <td>1</td>-->
                                         <!--  <td>25-11-2022</td> -->
                                         <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
+                                        <td>BRA8E11</td>
+                                        <td>Pedro</td>
                                         <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
+                                        <td>CTRLTECH</td>
                                         <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
+                                        <td>Massami</td>
+                                        <td>500</td>
+                                        <td>550</td>
                                         <!-- <td>Foto</td>-->
                                         <!--  <td>264847 - 484578 - 2564884</td>-->
                                         <!--   <td>Situaçao</td>-->
                                         <td>Massami</td>
-                                        <td>11:00</td>
+                                        <td>09:00</td>
 
 
                                         <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
@@ -225,10 +224,10 @@
                                         <!-- <td>1</td>-->
                                         <!--  <td>25-11-2022</td> -->
                                         <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
+                                        <td>BRA1E33</td>
+                                        <td>Kleber</td>
                                         <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
+                                        <td>BAMBOZZI</td>
                                         <!-- <td>38.488.988-5</td>-->
                                         <td>Gustavo</td>
                                         <td>1.350</td>
@@ -237,7 +236,7 @@
                                         <!--  <td>264847 - 484578 - 2564884</td>-->
                                         <!--   <td>Situaçao</td>-->
                                         <td>Massami</td>
-                                        <td>11:00</td>
+                                        <td>08:00</td>
 
 
                                         <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button></td>
@@ -514,25 +513,29 @@
 
 <!-- Logout Modal-->
 
-
-
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
-            </div>
-        </div>
+<!-- Modal -->
+<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado">ENTRADA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <?php
+      include_once "form_entrada_veiculos.php";
+      ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
     </div>
+  </div>
 </div>
+
 
 <!-- Bootstrap core JavaScript-->
 <script src="vendor/jquery/jquery.min.js"></script>
