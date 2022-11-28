@@ -19,7 +19,7 @@
 
 
 
-    <title>Document</title>
+    <title>Tabela</title>
 </head>
 
 <!-- Content Wrapper -->
