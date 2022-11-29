@@ -105,8 +105,8 @@
         <div class="container-fluid">
 
             <!-- Page Heading -->
-            <h1 class="h3 mb-2 text-gray-800">ENTRADA E SAÍDA DE FUNCIONÁRIOS</h1>
-            <p class="mb-4">Relatório de entrada e saída de funcionários</p>
+            <h1 class="h3 mb-2 text-gray-800">ENTRADA E SAÍDA DE RECEBIMENTOS</h1>
+            <p class="mb-4">Relatório de entrada e saída de recebimentos</p>
 
             <!-- DataTales Example -->
             <div class="card shadow mb-4">
@@ -340,7 +340,7 @@
             </div>
             <div class="modal-body">
                 <?php
-                include_once "form_entrada_veiculos.php";
+                include_once "form_entrada_recebimento.php";
                 ?>
             </div>
             <div class="modal-footer">

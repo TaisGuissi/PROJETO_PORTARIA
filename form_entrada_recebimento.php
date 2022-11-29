@@ -38,11 +38,11 @@
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
-					VISITANTES
+					RECEBIMENTOS
 					</span>
 
 
-                    <!--       FORMULÁRIO DE ENTRADA DE VISITANTES     -->
+                    <!--       FORMULÁRIO DE ENTRADA DE RECEBIMENTOS     -->
                    
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
 						<input class="input100" type="date" name="username" placeholder="">

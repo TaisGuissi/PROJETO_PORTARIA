@@ -340,7 +340,7 @@
             </div>
             <div class="modal-body">
                 <?php
-                include_once "form_entrada_veiculos.php";
+                include_once "form_entrada_funcionarios.php";
                 ?>
             </div>
             <div class="modal-footer">
