@@ -1,17 +1,18 @@
 <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<!-- Custom fonts for this template-->
+<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-    <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="css/seletor.css" rel="stylesheet">
-    <link href="css/estilo.css" rel="stylesheet">
-    <!-- Custom styles for this page -->
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+<!-- Custom styles for this template-->
+<link href="css/sb-admin-2.min.css" rel="stylesheet">
+<link href="css/seletor.css" rel="stylesheet">
+<link href="css/estilo.css" rel="stylesheet">
+<!-- Custom styles for this page -->
+<link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main_tabela.css">
 
 
 
@@ -121,15 +122,16 @@
                         <table class="table table-striped" id="dataTable" width="100%" cellspacing="0">
                             <thead>
                                 <tr>
-                                    <!--    <th>ID</th> -->
+                                    <!--<th>ID</th> -->
                                     <!--<th>Data</th> -->
                                     <!-- <th>Hora da entrada</th> -->
                                     <th>Placa</th>
                                     <th>motorista</th>
-                                    <!--    <<th>Transportadora</th>-->
+                                    <th>Transportadora</th>
                                     <th>Cliente</th>
                                     <!-- <th>RG</th> -->
                                     <th>Liberação</th>
+                                    <th>Tara</th>
                                     <th>Peso Nfs</th>
                                     <th>Peso Balança</th>
                                     <!-- <th>Evidência</th>-->
@@ -150,10 +152,11 @@
                                     <!-- <th>Hora da entrada</th> -->
                                     <th>Placa</th>
                                     <th>motorista</th>
-                                    <!--    <<th>Transportadora</th>-->
+                                    <th>Transportadora</th>
                                     <th>Cliente</th>
                                     <!-- <th>RG</th> -->
                                     <th>Liberação</th>
+                                    <th>Tara</th>
                                     <th>Peso Nfs</th>
                                     <th>Peso Balança</th>
                                     <!-- <th>Evidência</th>-->
@@ -168,17 +171,17 @@
                             </tfoot>
                             <tbody>
 
-                                <<tr>
+                                <tr>
                                     <!--    <th>ID</th> -->
                                     <!--<th>Data</th> -->
                                     <!-- <th>Hora da entrada</th> -->
-
                                     <th>Placa</th>
                                     <th>motorista</th>
-                                    <!--    <<th>Transportadora</th>-->
+                                    <th>Transportadora</th>
                                     <th>Cliente</th>
                                     <!-- <th>RG</th> -->
                                     <th>Liberação</th>
+                                    <th>Tara</th>
                                     <th>Peso Nfs</th>
                                     <th>Peso Balança</th>
                                     <!-- <th>Evidência</th>-->
@@ -189,18 +192,294 @@
                                     <th>Hora de Saída</th>
                                     <th>Ações</th>
 
-                                    </tr>
+                                </tr>
 
-                                    <tr>
-                                        <!-- <td>1</td>-->
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA9E11</td>
+                                    <td>JOSÉ</td>
+                                    <td>Autonomo</td>
+                                    <td>TEASE</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>MASSAMI</td>
+                                    <td>800</td>
+                                    <td>850</td>
+                                    <td>820</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>08:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA2E11</td>
+                                    <td>SAMUEL</td>
+                                    <td>Autonomo</td>
+                                    <td>GKTB</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>CRISTINA</td>
+                                    <td>1300</td>
+                                    <td>1250</td>
+                                    <td>1200</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>CRISTINA</td>
+                                    <td>08:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+                                <tr>
+                                    <!-- <td>1</td>-->
+                                    <!--  <td>25-11-2022</td> -->
+                                    <!--  <td>09:50</td> -->
+                                    <td>BRA8E11</td>
+                                    <td>Pedro</td>
+                                    <td>Autonomo</td>
+                                    <td>CTRLTECH</td>
+                                    <!-- <td>38.488.988-5</td>-->
+                                    <td>Massami</td>
+                                    <td>1500</td>
+                                    <td>500</td>
+                                    <td>550</td>
+                                    <!-- <td>Foto</td>-->
+                                    <!--  <td>264847 - 484578 - 2564884</td>-->
+                                    <!--   <td>Situaçao</td>-->
+                                    <td>Massami</td>
+                                    <td>09:00</td>
+
+                                    <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
+                                </tr>
+
+                                <tr>
+                                    <<!-- <td>1</td>-->
                                         <!--  <td>25-11-2022</td> -->
                                         <!--  <td>09:50</td> -->
                                         <td>BRA8E11</td>
                                         <td>Pedro</td>
-                                        <!-- <td>Autonomo</td>-->
+                                        <td>Autonomo</td>
                                         <td>CTRLTECH</td>
                                         <!-- <td>38.488.988-5</td>-->
                                         <td>Massami</td>
+                                        <td>1500</td>
                                         <td>500</td>
                                         <td>550</td>
                                         <!-- <td>Foto</td>-->
@@ -208,273 +487,8 @@
                                         <!--   <td>Situaçao</td>-->
                                         <td>Massami</td>
                                         <td>09:00</td>
-
-
                                         <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA1E33</td>
-                                        <td>Kleber</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>BAMBOZZI</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>08:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-
-
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
-
-                                    <tr>
-                                        <!-- <td>1</td>-->
-                                        <!--  <td>25-11-2022</td> -->
-                                        <!--  <td>09:50</td> -->
-                                        <td>BRA5E22</td>
-                                        <td>Alex</td>
-                                        <!-- <td>Autonomo</td>-->
-                                        <td>GKTB</td>
-                                        <!-- <td>38.488.988-5</td>-->
-                                        <td>Gustavo</td>
-                                        <td>1.350</td>
-                                        <td>1.400</td>
-                                        <!-- <td>Foto</td>-->
-                                        <!--  <td>264847 - 484578 - 2564884</td>-->
-                                        <!--   <td>Situaçao</td>-->
-                                        <td>Massami</td>
-                                        <td>11:00</td>
-                                        <td> <button type="button" class="btn btn-danger">Excluir</button> <button type="button" class="btn btn-primary">Editar</button> <button type="button" class="btn btn-success">Liberar</button></td>
-                                    </tr>
+                                </tr>
 
 
                             </tbody>
@@ -485,7 +499,7 @@
         </div>
         <!-- /.container-fluid -->
 
-        </div>
+    </div>
     <!-- End of Main Content -->
 </div>
 <!-- End of Content Wrapper -->
@@ -520,7 +534,6 @@
 </div>
 
 
-
 <!-- Modal cadastro -->
 <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -543,8 +556,6 @@
         </div>
     </div>
 </div>
-
-
 
 
 
