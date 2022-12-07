@@ -4,20 +4,10 @@
 	<meta charset="utf-8">
 	<title>Wizard-v4</title>
 	<!-- Mobile Specific Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Font-->
-	<link rel="stylesheet" type="text/css" href="css/css_form_entrada_veiculos/opensans-font.css">
-	<link rel="stylesheet" type="text/css" href="css/css_form_entrada_veiculos/roboto-font.css">
-	<link rel="stylesheet" type="text/css" href="fonts/fonts_form_entrada_veiculos/material-design-iconic-font/css/material-design-iconic-font.min.css">
-	<!-- datepicker -->
-	<link rel="stylesheet" type="text/css" href="css/css_form_entrada_veiculos/jquery-ui.min.css">
-	<!-- Main Style Css -->
-    <link rel="stylesheet" href="css/css_form_entrada_veiculos/style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<!--===============================================================================================-->	
-<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
+
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -36,14 +26,26 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
-<!--===============================================================================================-->
 
 
+
+
+
+
+
+
+<!-- Font-->
+<link rel="stylesheet" type="text/css" href="css/css_form_entrada_veiculos/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="css/css_form_entrada_veiculos/roboto-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts_form_entrada_veiculos/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- datepicker -->
+	<link rel="stylesheet" type="text/css" href="css/css_form_entrada_veiculos/query-ui.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/css_form_entrada_veiculos/style.css"/>
 
 </head>
 <body>
-	<div class="page-content" style="background-image: url('images/wizard-v4.jpg')">
+	<div class="page-content" style="background-image: url('images/images_form_entrada_veiculos/wizard-v4.jpg')">
 		<div class="wizard-v4-content">
 			<div class="wizard-form">
 				<div class="wizard-header">
@@ -319,9 +321,19 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/jquery.steps.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
-	<script src="js/main.js"></script>
+
+	<div id="dropDownSelect1"></div>
+	<!--
+	<script src="js/js_form_entrada_veiculos/jquery-3.3.1.min.js"></script>
+	<script src="js/js_form_entrada_veiculos/query.steps.js"></script>
+	<script src="js/js_form_entrada_veiculos/jquery-ui.min.js"></script>
+	<script src="js/js_form_entrada_veiculos/main.js"></script>
+-->
+	<script src="js/js_form_entrada_veiculos/jquery-3.3.1.min.js"></script>
+	<script src="js/js_form_entrada_veiculos/jquery.steps.js"></script>
+	<script src="js/js_form_entrada_veiculos/jquery-ui.min.js"></script>
+	<script src="js/js_form_entrada_veiculos/main.js"></script>
+	
+	
 </body>
 </html>
