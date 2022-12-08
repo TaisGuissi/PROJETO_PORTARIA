@@ -103,18 +103,12 @@
                     <div class="wrap-input100 validate-input" data-validate = "Enter username">
 						<input class="input100" type="text" name="username" placeholder="Saída aprovada por...">
 					</div>
-
-
-					  
-					
 				
 					   <!--  <div class="container-login100-form-btn">
 						<button class="login100-form-btn">
 							LIBERAR ENTRADA
 						</button>
 					</div>-->
-
-					
 				</form>
 			</div>
 		</div>
@@ -123,8 +117,7 @@
 
 	<div id="dropDownSelect1"></div>
 
-    
-	
+
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
