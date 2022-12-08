@@ -56,21 +56,30 @@
                                     <div class="form-holder">
                                         <label class="form-row-inner">
                                             <input type="text" class="form-control" id="first-name" name="first-name" required>
-                                            <span class="label">Nome</span>
+                                            <span class="label">NOME</span>
                                             <span class="border"></span>
-                                        </label>
+                                        </label><br>
                                     </div>
 
                                     <div class="form-row">
                                         <div class="form-holder form-holder-2">
                                             <select name="position" id="position">
-                                                <option value="Position" disabled selected>T.I</option>
+                                                <option value="Position" disabled selected>SETOR</option>
                                                 <option value="Manager">ADMINISTRAÇÃO </option>
-                                                <option value="Position" disabled selected>PRODUÇÃO</option>
-                                      
-
-
-
+                                                <option value="Manager">ALMOXARIFADO</option>
+                                                <option value="Manager">ENGENHARIA</option>
+                                                <option value="Manager">ESCRITÓRIO PRENSA</option>
+                                                <option value="Manager">EXPEDIÇÃO</option>
+                                                <option value="Manager">FATURAMENTO</option>
+                                                <option value="Manager">FERRAMENTARIA</option>
+                                                <option value="Manager">FORNO</option>
+                                                <option value="Manager">INJEÇÃO</option>
+                                                <option value="Manager">LAB. METROLOGIA</option>
+                                                <option value="Manager">SGI</option>
+                                                <option value="Manager">VENDAS</option>
+                                                <option value="Manager">PRODUÇÃO</option>
+                                                </option>
+                                
                                             </select>
                                         </div>
                                     </div>
@@ -78,14 +87,7 @@
 
 
 
-                                    <div class="form-holder">
-                                        <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="last-name" name="last-name" required>
-                                            <span class="label">Setor</span>
-                                            <span class="border"></span>
-                                        </label>
-                                    </div>
-                                </div>
+                                   
 
                                 <!--
 								<div class="form-row">
@@ -116,30 +118,41 @@
 							</div> -->
                         </section>
                         <!-- SECTION 2 -->
+
+
+
+
+                      
                         <h2>
-                            <span class="step-icon"><i class="zmdi zmdi-lock"></i></span>
-                            <span class="step-text">Veicúlo</span>
+                            <span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
+                            <span class="step-text">R.O ENTRADA</span>
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>Informações do Veicúlo:</h3>
+                                <h3>Informações de R.O entrada</h3>
+
                                 <div class="form-row">
                                     <div class="form-holder">
                                         <label class="form-row-inner">
-                                            <input type="text" class="form-control" id="first-name" name="first-name" required>
-                                            <span class="label">Placa</span>
-                                            <span class="border"></span>
+                                            <input type="time" class="form-control" id="first-name-1" name="first-name-1" required>
                                         </label>
                                     </div>
-                                    <!--
-									<div class="form-holder">
-										<label class="form-row-inner">
-											<input type="text" class="form-control" id="last-name" name="last-name" required>
-											<span class="label">RG</span>
-					  						<span class="border"></span>
-										</label>
-									</div>
-								</div>
+                                </div>
+
+
+                                <div class="inner">
+                                    <div class="form-row">
+                                        <div class="form-holder">
+                                            <label class="form-row-inner">
+                                                <input type="date" class="form-control" id="first-name-1" name="first-name-1" required>
+                                                <span class="label"></span>
+                                                <span class="border"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+<!--
+
 			                <div class="inner">
 			                	<h3>Do you have an account?</h3>
 								<div class="form-row">
@@ -173,16 +186,16 @@
 										</label>
 									</div>
 								</div>
-							</div> -->
+							</div> --> 
                         </section>
                         <!-- SECTION 3 -->
                         <h2>
                             <span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
-                            <span class="step-text">Data e Horário</span>
+                            <span class="step-text">R.O SAÍDA</span>
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>Informações de Entrada</h3>
+                                <h3>Informações de R.O SAÍDA</h3>
 
                                 <div class="form-row">
                                     <div class="form-holder">
@@ -235,11 +248,39 @@
                         <!-- SECTION 4 -->
                         <h2>
                             <span class="step-icon"><i class="zmdi zmdi-money"></i></span>
-                            <span class="step-text">Notas Fiscais</span>
+                            <span class="step-text">OBSERVAÇÃO</span>
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>Informações das notas fiscais</h3>
+                                <h3>RETORNO</h3>
+
+                                <div class="form-row">
+                                    <div class="form-holder">
+                                        <label class="form-row-inner">
+                                            <input type="time" class="form-control" id="first-name-1" name="first-name-1" required>
+                                        </label>
+                                    </div>
+                                </div>
+
+
+                                <div class="inner">
+                                    <div class="form-row">
+                                        <div class="form-holder">
+                                            <label class="form-row-inner">
+                                                <input type="date" class="form-control" id="first-name-1" name="first-name-1" required>
+                                                <span class="label"></span>
+                                                <span class="border"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
                                 <!--	<div class="form-row">
 									<div class="form-holder form-holder-2">
 										<select name="inventory" id="inventory">

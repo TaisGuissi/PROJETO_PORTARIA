@@ -100,8 +100,8 @@
 					  						<span class="border"></span>
 										</label>
 									</div>
-								</div>
-							</div> -->
+								</div>-->
+							</div> 
 			            </section>
 						<!-- SECTION 2 -->
 			            <h2>
