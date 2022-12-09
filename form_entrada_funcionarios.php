@@ -56,7 +56,7 @@
                                     <div class="form-holder">
                                         <label class="form-row-inner">
                                             <input type="text" class="form-control" id="first-name" name="first-name" required>
-                                            <span class="label">NOME</span>
+                                            <span class="label">Nome</span>
                                             <span class="border"></span>
                                         </label><br>
                                     </div>
@@ -64,7 +64,7 @@
                                     <div class="form-row">
                                         <div class="form-holder form-holder-2">
                                             <select name="position" id="position">
-                                                <option value="Position" disabled selected>SETOR</option>
+                                                <option value="Position" disabled selected>Setor</option>
                                                 <option value="Manager">ADMINISTRAÇÃO </option>
                                                 <option value="Manager">ALMOXARIFADO</option>
                                                 <option value="Manager">ENGENHARIA</option>
@@ -125,11 +125,11 @@
                       
                         <h2>
                             <span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
-                            <span class="step-text">R.O ENTRADA</span>
+                            <span class="step-text">R.O Entrada</span>
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>Informações de R.O entrada</h3>
+                                <h3>Informações de R.O Entrada</h3>
 
                                 <div class="form-row">
                                     <div class="form-holder">
@@ -191,11 +191,11 @@
                         <!-- SECTION 3 -->
                         <h2>
                             <span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
-                            <span class="step-text">R.O SAÍDA</span>
+                            <span class="step-text">R.O Saída</span>
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>Informações de R.O SAÍDA</h3>
+                                <h3>Informações de R.O Saída</h3>
 
                                 <div class="form-row">
                                     <div class="form-holder">
@@ -248,11 +248,11 @@
                         <!-- SECTION 4 -->
                         <h2>
                             <span class="step-icon"><i class="zmdi zmdi-money"></i></span>
-                            <span class="step-text">OBSERVAÇÃO</span>
+                            <span class="step-text">Observação</span>
                         </h2>
                         <section>
                             <div class="inner">
-                                <h3>RETORNO</h3>
+                                <h3>Retorno</h3>
 
                                 <div class="form-row">
                                     <div class="form-holder">
@@ -273,11 +273,18 @@
                                             </label>
                                         </div>
                                     </div>
+                                    <br>
 
-
-
-
-
+                                    <div class="inner">
+                              
+                                <div class="form-row">
+                                    <div class="form-holder">
+                                        <label class="form-row-inner">
+                                            <input type="text" class="form-control" id="first-name" name="first-name" required>
+                                            <span class="label">Motivo:</span>
+                                            <span class="border"></span>
+                                        </label><br>
+                                    </div>
 
 
 
@@ -296,7 +303,7 @@
 										<input type="checkbox" name="vehicle1" value="Yes"> Yes
   										<input type="checkbox" name="vehicle2" value="No"> No
 									</div>
-								</div> -->
+								</div> 
                                 <div class="form-row">
                                     <div class="form-holder form-holder-2">
                                         <label class="form-row-inner">
@@ -333,7 +340,7 @@
                                         </label>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </section>
                     </div>
                 </form>

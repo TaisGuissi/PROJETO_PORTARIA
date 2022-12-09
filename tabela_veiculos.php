@@ -113,10 +113,9 @@
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
                     <h6 class="">
-                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ExemploModalCentralizado"> + ADICIONAR </button>
-
+                      <!--   <button type="button" class="btn btn-success" data-toggle="modal" data-target="#ExemploModalCentralizado"> + ADICIONAR </button> -->
+                     <a href="form_entrada_veiculos.php"> <button type="button" class="btn btn-success"> + ADICIONAR </button></a>
                         <button type="button" class="btn btn-danger"> SAÍDA </button>
-
                     </h6>
                 </div>
                 <div class="card-body">
@@ -143,10 +142,8 @@
                                     <th>Aprovação de Saída</th>
                                     <th>Hora de Saída</th>
                                     <th>Ações</th>
-
                                 </tr>
                             </thead>
-
                             <tfoot>
                                 <tr>
                                     <!--    <th>ID</th> -->
@@ -536,7 +533,7 @@
 </div>
 
 
-<!-- Modal cadastro -->
+<!-- Modal cadastro 
 <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -548,9 +545,7 @@
             </div>
             <div class="modal-body">
 
-                <?php
-                include_once "form_entrada_veiculos.php";
-                ?>
+                
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -559,7 +554,7 @@
         </div>
     </div>
 </div>
-
+-->
 
 
 <!-- Bootstrap core JavaScript-->
