@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Wizard-v4</title>
+	<title>Entrada de Veículos</title>
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -79,7 +79,6 @@
 							</div> 
 			            </section>
 
-
 						<!-- SECTION 2 -->
 			            <h2>
 			            	<span class="step-icon"><i class="zmdi zmdi-lock"></i></span>
@@ -106,19 +105,14 @@
 									</div>	
 			            </section>
 
-
-
-
-
-
 						<!-- SECTION 3 -->
 			            <h2>
 			            	<span class="step-icon"><i class="zmdi zmdi-lock"></i></span>
-			            	<span class="step-text">Veículo</span>
+			            	<span class="step-text">Cliente</span>
 			            </h2>
 			            <section>
 						 <div class="inner">
-			                	<h3>Informações do Veicúlo:</h3>
+			                	<h3>Informações do Cliente:</h3>
 								<div class="form-row">
 									<div class="form-holder">
 										<label class="form-row-inner">
@@ -141,7 +135,7 @@
 						<!-- SECTION 3 -->
 			            <h2>
 			            	<span class="step-icon"><i class="zmdi zmdi-account"></i></span>
-			            	<span class="step-text">Cliente</span>
+			            	<span class="step-text">Entrada</span>
 			            </h2>
 			            <section>
 			                <div class="inner">
@@ -169,40 +163,12 @@
 
 
 			            <!-- SECTION 4 -->
-			            <h2>
-			            	<span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
-			            	<span class="step-text">Entrada</span>
-			            </h2>
-			            <section>
-			                <div class="inner">
-			                	<h3>Informações de Entrada</h3>
-								<div class="form-row">
-									<div class="form-holder">
-										<label class="form-row-inner">
-											<input type="time" class="form-control" id="first-name-1" name="first-name-1" required>
-											<span class="label"></span>
-											<span class="border"></span>
-										</label>
-									</div>
-								</div>
-								<div class="inner">
-								<div class="form-row">
-									<div class="form-holder">
-										<label class="form-row-inner">
-											<input type="date" class="form-control" id="first-name-1" name="first-name-1" required>
-											<span class="label"></span>
-											<span class="border"></span>
-										</label>
-									</div>
-								</div>
-			            </section>
-
-
-
-			            <!-- SECTION 5 -->
+			         
+						
+					
 			            <h2>
 			            	<span class="step-icon"><i class="zmdi zmdi-money"></i></span>
-			            	<span class="step-text">Notas Fiscais</span>
+			            	<span class="step-text">NFS</span>
 			            </h2>
 			            <section>
 			                <div class="inner">
@@ -259,18 +225,18 @@
 										</label>
 									</div>
 								</div>
-									</div>
-								</div>
-							</div>
+									
 			            </section>
-						 <!-- SECTION 4 -->
-						 <h2>
+						
+						 <!-- SECTION 5 -->
+			
+			            <h2>
 			            	<span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
-			            	<span class="step-text">Entrada</span>
+			            	<span class="step-text">Saída</span>
 			            </h2>
 			            <section>
 			                <div class="inner">
-			                	<h3>Informações de Entrada</h3>
+			                	<h3>Informações de Saída</h3>
 								<div class="form-row">
 									<div class="form-holder">
 										<label class="form-row-inner">
@@ -290,8 +256,12 @@
 										</label>
 									</div>
 								</div>
+								
+								</div>
+								</div>
+							</div>
 			            </section>
-						
+					
 		        	
 		        </form>
 			</div>
